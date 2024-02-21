@@ -1,6 +1,6 @@
-import { getNotes } from "../models/notes";
+import { fetchNotes } from "../models/notes.js";
 
 export const getAllNotes = (req, res) => {
-  getNotes();
+  fetchNotes();
   return res.send("Return all notes");
 };

@@ -1,5 +1,5 @@
 import { Router } from "express";
-import notes from "./notes";
+import notes from "./notes.js";
 
 const app = Router();
 
